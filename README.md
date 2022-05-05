@@ -1,7 +1,7 @@
 # News-Summarization-using-Abstractive-Techniques
 The following code has been trained on Cnn/Daily-Mail dataset.
 
-Link to Dataset: (https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail)
+Link to Dataset: https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail
 
 ### Seq2Seq RNN with Attention Mechanism
 Deep learning models that take a sequence of items as input and produce another sequence of items as output are known as sequence-to-sequence (Seq2Seq) models. Utilizing Long Short-Term Memory (LSTM) networks, which are a type of recurrent neural network, capable of learning long-term dependencies, is particularly effective in applications where sequences are interdependent, such as text summarization.
