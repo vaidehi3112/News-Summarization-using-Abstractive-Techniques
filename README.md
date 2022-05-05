@@ -12,6 +12,7 @@ For the baseline, Bahdanau's attention is implemented.
 
 ### Transformer Model
 One of the Seq2Seq Model's shortcomings is that it cannot manage long-term dependencies. Hence, we implemented a transformer Architecture to mitigate this issue. The transformer's goal is to prevent recursion in order to facilitate parallel computing (reduce training time). 
+
 Unlike the Seq2Seq approach, which relies on prior hidden states to capture relationships with previous words, the sentences are analyzed as a whole. Due to the parallelization ability of the transformer mechanism, much more data can be processed in the same amount of time with transformer models. Furthermore, it employs self attention, which is used to compute similarity scores between words in a phrase, and positional embedding, which replaces the recurrence and allows us to encode information related to a specific position of a token in a sentence. 
 
 ### T5 Model
