@@ -18,5 +18,5 @@ One of the Seq2Seq Model's shortcomings is that it cannot manage long-term depen
 Unlike the Seq2Seq approach, which relies on prior hidden states to capture relationships with previous words, the sentences are analyzed as a whole. Due to the parallelization ability of the transformer mechanism, much more data can be processed in the same amount of time with transformer models. Furthermore, it employs self attention, which is used to compute similarity scores between words in a phrase, and positional embedding, which replaces the recurrence and allows us to encode information related to a specific position of a token in a sentence.
 
 ### T5 Model
-
+Text-to-Text Transfer Transformer (T5) is a transformer based architecure which uses text as an input to the model and training it generates some text. The T5 model is based on the concept of transfer learning. T5 employs a sequence-to-sequence generation approach, in which the encoded input is fed to the decoder via cross-attention layers and the decoder output is autoregressive. The encoder receives a sequence of tokens that are mapped to a sequence of embeddings as input. In the encoder block, there is a self-attention layer and a feed forward network. 
 
