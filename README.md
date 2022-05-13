@@ -1,7 +1,7 @@
 # News-Summarization-using-Abstractive-Techniques
 The following code has been trained on Cnn/Daily-Mail dataset.
 
-Link to Dataset: https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail
+[Link to Dataset](https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail)
 
 ### Seq2Seq RNN with Attention Mechanism
         
